@@ -1,34 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:700');
+
 body{
   font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+  text-align: justify;
   background: black url("../media/images/background.svg") top center;
   background-size: cover;
-  color: white;
-  font-weight: lighter;
+  color: #5c5c5c;
   background-repeat: no-repeat;
+  line-height: normal;
 }
+
+/* .step1{
+   background: black url("../media/images/backgroundstep1.svg") top center;"
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 0;
+   margin: 0;
+} */
 
 header{
-  margin: auto;
-  max-width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
 
-section{
-  margin: auto;
-  max-width: 800px;
+.menu{
+  margin-right: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #433d83;
+  transition: color .2s;
+}
+
+.menu:hover{
+  color: #ff7edd;
 }
 
 h1{
+  font-size: 2em;
+  margin-bottom: 1em;
   font-family: 'Fredoka One', cursive;
-  color: white;
+  color: #ff7edd;
 }
+
+p{
+  margin-bottom: 2em;
+}
+
+
+/* PARTIES FLEXBOX */
+
+section{
+margin-top: 15%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.section-content {
+}
+
+.column{
+  max-width: 400px;
+  min-width: 250px;
+}
+
+/* FIN PARTIES FLEXBOX */
+
 
 .output {
     backgroud: #eee;
     position: relative;
-}
-
-#logo{
-  padding-top: 20px;
 }
 
 ul{
@@ -37,43 +83,45 @@ ul{
   text-decoration: none;
 }
 
-.boutons{
-  -webkit-transition: all 1s ease; /* Safari et Chrome */
--moz-transition: all 1s ease; /* Firefox */
--ms-transition: all 1s ease; /* Internet Explorer 9 */
--o-transition: all 1s ease; /* Opera */
-transition: all 1s ease;
+
+/* BOUTONS */
+
+.enavant{
+  display: flex;
+  justify-content: flex-end;
+  transition: transform .2s;
 }
 
-.boutons:hover{
-  -webkit-transform:scale(1.25); /* Safari et Chrome */
--moz-transform:scale(1.25); /* Firefox */
--ms-transform:scale(1.25); /* Internet Explorer 9 */
--o-transform:scale(1.25); /* Opera */
-transform:scale(1.25);
+.enavant:hover{
+  transform: scale(1.1);
 }
 
 .next{
-  float: right;
-  clear: right;
   margin-right: 30px;
+  transition: transform .2s;
+}
+
+.next:hover{
+  transform: scale(1.1);
 }
 
 .back{
-  float: left;
-  clear: left;
   margin-left: 30px;
+  transition: transform .2s;
 }
 
-.column{
-  max-width: 400px;
-  flex-grow: 1;
-  flex-shrink: 1;
+.back:hover{
+  transform: scale(1.1);
 }
 
-#para1{
-  margin-top: 10em;
+.section-nav{
+  margin-top: 10% !important;
+  display: flex;
+  justify-content: space-between;
 }
+
+/* BOUTONS */
+
 
 footer {
     font-size: .8rem;

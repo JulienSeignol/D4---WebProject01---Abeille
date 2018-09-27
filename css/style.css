@@ -1,12 +1,11 @@
 body{
   font-family: 'Roboto Slab', serif;
-  background: yellow url("../media/images/background.jpg") top center;
+  background: black url("../media/images/background.svg") top center;
   background-size: cover;
   color: white;
   font-weight: lighter;
   background-repeat: no-repeat;
 }
-
 
 header{
   margin: auto;
@@ -21,6 +20,49 @@ section{
 h1{
   font-family: 'Fredoka One', cursive;
   color: white;
+}
+
+.output {
+    backgroud: #eee;
+    position: relative;
+}
+
+#logo{
+  padding-top: 20px;
+}
+
+ul{
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.boutons{
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.boutons:hover{
+  -webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+}
+
+.next{
+  float: right;
+  clear: right;
+  margin-right: 30px;
+}
+
+.back{
+  float: left;
+  clear: left;
+  margin-left: 30px;
 }
 
 .column{
@@ -38,23 +80,4 @@ footer {
     position: absolute;
     bottom: 10px;
     right: 10px;
-}
-
-.output {
-    backgroud: #eee;
-    position: relative;
-}
-
-#logo{
-  padding-top: 20px;
-}
-
-.list{
-  color: white;
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.boutons:hover{
-  width: 100;
 }

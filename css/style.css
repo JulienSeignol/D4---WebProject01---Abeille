@@ -14,7 +14,6 @@ body{
 /* .step1{
    background: black url("../media/images/backgroundstep1.svg") top center;"
    background-size: cover;
-   background-repeat: no-repeat;
    padding: 0;
    margin: 0;
 } */
@@ -55,10 +54,19 @@ p{
 /* PARTIES FLEXBOX */
 
 section{
-margin-top: 15%;
-display: flex;
-justify-content: space-around;
-align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 90vw;
+  min-height: 85vh;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .section-content {
@@ -71,18 +79,20 @@ align-items: center;
 
 /* FIN PARTIES FLEXBOX */
 
-
-.output {
-    backgroud: #eee;
-    position: relative;
+.videos{
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: auto;
 }
 
-ul{
-  color: white;
-  list-style-type: none;
-  text-decoration: none;
+.boutonsbas{
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
-
 
 /* BOUTONS */
 
@@ -96,7 +106,16 @@ ul{
   transform: scale(1.1);
 }
 
+.flechebas{
+  transition: transform .2s;
+}
+
+.flechebas:hover{
+  transform: scale(1.1);
+}
+
 .next{
+  float: right;
   margin-right: 30px;
   transition: transform .2s;
 }
@@ -115,12 +134,13 @@ ul{
 }
 
 .section-nav{
-  margin-top: 10% !important;
+  margin-top: 8% !important;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
-/* BOUTONS */
+/* FIN BOUTONS */
 
 
 footer {

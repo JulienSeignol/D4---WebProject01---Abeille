@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1081"><defs><style>.cls-1{fill:#ededed;}.cls-2{fill:#433d83;}</style></defs><title>Fichier 4</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><rect class="cls-1" width="1920" height="1081"/><path class="cls-2" d="M960,0C779,166,813,328,863,454s77.37,256.06,6.68,382S797,1081,797,1081H0V0Z"/><path class="cls-2" d="M1920,1081V677.17c-125.16,104.58-96,285.87-264.55,403.83Z"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EDEDED;}
+	.st1{fill:#433D83;}
+</style>
+<rect y="-1" class="st0" width="1920" height="1081"/>
+<rect x="1984" y="-1" class="st0" width="1920" height="1081"/>
+<path class="st1" d="M960-1c-181,166-147,328-97,454s77.4,256.1,6.7,382S797,1080,797,1080H0V-1H960z"/>
+<path class="st1" d="M2781,1080h-797V-1h805c0,0-110.7,190.8-14,390c99,204,146,214,169,440c13.2,129.8,111,251,111,251H1984"/>
+<path class="st1" d="M1920,1080V676.2c-125.2,104.6-95.9,285.9-264.5,403.8H1920z"/>
+</svg>
